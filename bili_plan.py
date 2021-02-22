@@ -142,7 +142,7 @@ w = WeiBo()
 
 """
 
-b = BILIBILI(SESSDATA="5e0a2435%2C1616142220%2C19ff2*91",bili_jct="d06834c638accd2c8d3ce7d0e1a15308",DedeUserID="17509450")
+b = BILIBILI(SESSDATA="5e0a20%2C19ff2*91",bili_jct="d06c8d3ce7d0e1a15308",DedeUserID="17450")
 test = b.bili_session.get("http://api.bilibili.com/x/web-interface/nav/stat")
 print(test.content)
 """
